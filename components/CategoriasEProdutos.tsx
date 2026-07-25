@@ -50,9 +50,10 @@ export default function CategoriasEProdutos({
 
   return (
     <>
-      <section className="relative overflow-hidden py-14 text-benvenuto-black">
-        <div className="absolute inset-0">
-          <Image src="/images/new-backgrund.jpeg" alt="" fill className="object-cover" sizes="100vw" />
+      <section className="relative py-14 text-benvenuto-black">
+        <div className="absolute inset-x-0 top-0 bottom-0">
+          <Image src="/images/categoria-textura-bg.jpg" alt="" fill className="object-cover md:hidden" sizes="100vw" />
+          <Image src="/images/bg-section2.png" alt="" fill className="hidden object-cover md:block" sizes="100vw" />
         </div>
 
         <div className="relative mx-auto max-w-6xl px-5">

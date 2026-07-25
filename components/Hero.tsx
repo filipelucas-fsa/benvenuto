@@ -39,7 +39,7 @@ export default function Hero() {
   const embers = Array.from({ length: 14 });
 
   return (
-    <section className="relative flex min-h-[720px] w-full items-center overflow-hidden bg-benvenuto-black pb-16 pt-28">
+    <section className="relative flex min-h-[99vh] w-full items-center overflow-hidden bg-benvenuto-black pb-16 pt-28">
       <div ref={imgRef} className="absolute inset-0 will-change-transform">
         <Image
           src="/images/hero-pizza-forno.jpg"
